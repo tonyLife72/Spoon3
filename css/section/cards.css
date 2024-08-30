@@ -1,0 +1,102 @@
+:root {
+    --fontTitle: "Libre Franklin", sans-serif;
+    --fontText: "IBM Plex Mono", monospace;
+}
+
+.cards {
+    margin: 0;
+    padding: 0;
+}
+
+.cards-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 1154px;
+}
+
+.cards-element {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1170px;
+    margin: 120px 135px 120px 135px;
+    width: 1170px;
+    height: 914px;
+}
+
+.cards__element-first {
+    display: flex;
+    justify-content: flex-start;
+    width: 1170px;
+    height: 330px;
+    
+}
+
+.cards__element-second {    
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 90px;
+    width: 1170px;
+    height: 330px;
+}
+
+
+.cards__element-info-one {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 370px;
+    height: 330px;
+}
+
+.cards__element-info-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 100px;
+    width: 370px;
+    height: 330px;
+}
+.cards__element-image {
+    width: 470px;
+    height: 330px;
+}
+
+.cards__element-title {
+    margin-bottom: 25px;
+    font-family: var(--fontTitle);
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 150%;
+    color: #999999;
+}
+
+.cards__element-text {
+    font-family: var(--fontText);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 185%;
+    color: #999;
+}
+
+.cards__element-reference {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+    
+}
+
+.cards__element-reference-text {
+    font-family: var(--fontText);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 164%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #5ab963;
+}
+
+.cards__element-reference-title {
+    margin-bottom: 12px;
+}
